@@ -1,3 +1,132 @@
-h1 {
-    color: red;
+/* Universal Styles For All */
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #01161E;
+  }
+
+
+
+  /* Header Section */
+header {
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
 }
+
+header img {
+    height: 32px;
+    
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 24px;
+  }
+  
+  .title-bar {
+    color: #8A97A8;
+  }
+  
+  .title-bar span {
+    padding: 0;
+    font-weight: bold;
+    color: #01161E;
+  }
+
+
+
+
+  /* Navigation */
+
+  nav {
+    padding-right: 24px;
+    align-self: center;
+    display: flex;
+    margin-right: 12px;
+  }
+  
+  .desktop {
+    display: inline-block;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  /* Start Banner */
+  
+  .side-text {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+  
+  .landing-box img {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 60%;
+    margin: 64px 24px;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    top: 32px;
+  }
+
+  .landing-box {
+      background-color: lightgrey;
+      width: 100%;
+      height: auto;
+  }
+
+  .landing-box .side-text h1 {
+      font-size: 2.6rem;
+      font-weight: 900;
+      font-family: 'Open sans', sans-serif, lato;
+  }
+  
+  .landing-box .side-text h3 {
+      margin: 0 0 24px;
+      font-size: 1.5rem;
+  }
+  
+  .landing-box .side-text {
+      width: 30%;
+      box-sizing: border-box;
+      height: auto;
+  }
+  
+  .landing-box p, .main-pic-box p {
+      margin-bottom: 1.5rem;
+  }
+
+/* Start Here Button */
+
+.start {
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 16px 0;
+    text-align: center;
+    transition:color 400ms, background-color 400ms;
+    font-weight: bold;
+    margin: 24px 0;
+  }
+  
+  .start:hover {
+    background-color: #FF7954;
+    color: #01161E;
+  }
+  
+  .information .content-box:last-child, .thesis .content-box:first-child {
+    background-color: #EEF9ED;
+  }
