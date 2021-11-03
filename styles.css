@@ -1,15 +1,8 @@
 /* Universal Styles For All */
 
-html {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    color: #01161E;
-  }
-
-/* Overall Style */
 body {
   background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Roboto, 'Open Sans', sans-serif;
   color: #303030;
   font-size: 16px;
   line-height: 0;
@@ -20,7 +13,7 @@ body {
 }
 
 footer {
-  padding: 1rem 1.5rem;
+  padding: 16px 24px;
   position: relative;
   top: 4rem;
   display: flex;
@@ -33,7 +26,7 @@ footer {
 /* Layout */
 header {
   background-color: #ffffff;
-  height: 4rem;
+  height: 64px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -45,16 +38,16 @@ header {
 
 main {
   position: relative;
-  top: 4rem;
+  top: 64px;
 }
 
 /* Patterns */
 button {
   height: 4rem;
   background-color: #303030;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   flex-shrink: 1;
   border-radius: 2px;
 }
@@ -70,12 +63,12 @@ button {
 /* Text styles */
 h1 {
   font-size: 2rem;
-  line-height: 2rem;
+  line-height: 2.6rem;
 }
 
 h2 {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
 }
 
 h3 {
@@ -121,7 +114,7 @@ ul {
 /* Sections */
 /* Cover */
 .cover {
-  background-color: #d8d8d8;
+  background-color: rgb(236, 236, 236);
   width: 100%;
   display: flex;
 }
@@ -175,7 +168,7 @@ ul {
 
   /* Patterns */
   button {
-    width: 20rem;
+    width: 24rem;
   }
 
   /* Header */
@@ -187,7 +180,7 @@ ul {
 
   #logo {
     height: 4rem;
-    margin: 0 1.5rem;
+    margin: 0 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -201,11 +194,11 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 1.5rem;
+    margin-right: 24px;
   }
 
   li {
-    margin-left: 1rem;
+    margin-left: 24px;
     font-size: 1rem;
   }
 
@@ -217,7 +210,7 @@ ul {
   }
 
   footer .links a {
-    margin-left: 1rem;
+    margin-left: 24px;
     font-size: 1rem;
   }
 
@@ -252,6 +245,7 @@ ul {
     margin: 0;
   }
 
+
   /* Sections */
   /* Cover */
   .cover h1 {
@@ -273,6 +267,7 @@ ul {
   .articles {
     flex-direction: row;
   }
+
 
   .articles .featured .pic img {
     width: 100%;
@@ -299,9 +294,17 @@ ul {
   }
 
   /* Courses */
+
+
   .courses {
-    background-color: #d8d8d8;
-    padding: 2rem 3.5rem;
+    background-color: rgb(236, 236, 236);
+    padding: 64px 72px;
+  }
+
+  .courses h1 {
+    text-align: center;
+
+    
   }
 
   .courses .course {
@@ -309,7 +312,7 @@ ul {
     background-color: white;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 0 1rem;
+    margin: 8px 16px;
   }
 
   .courses .up_row,
@@ -319,7 +322,7 @@ ul {
   }
 
   .courses .up_row {
-    margin-bottom: 2rem;
+    margin-bottom: 16px;
   }
 
   .courses .course .pic {
@@ -331,7 +334,8 @@ ul {
   }
 
   .course .description {
-    padding: 0 1rem;
+    padding: 0 16px;
+    line-height: 8px;
   }
 
 
@@ -340,6 +344,7 @@ ul {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin: 32px 0;
   }
 
   .thesis_content .featured {
@@ -379,6 +384,7 @@ ul {
   /* Patterns */
   button {
     width: 100%;
+    justify-content: center;
   }
 
   .dark {
@@ -387,11 +393,12 @@ ul {
 
   /* Text styles */
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    line-height: 4rem;
   }
 
   h2 {
-    line-height: 1.6rem;
+    line-height: 3rem;
   }
 
   /* Header */
